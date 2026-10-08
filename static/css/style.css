@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    margin: 30px;
+}
+
+/*Styling for body paragraphs*/
+p {
+    color: black;
+    font-size: 16px;
+
+}
+
+/*Styling for level 2 headers*/
+h2 {
+    color: darkred;
+    border-bottom: 1px solid gray;
+}
+/*Table styling*/
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/*Styling for third paragraph with id*/
+p#third-paragraph {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/*Styling main title*/
+.main-title {
+    color: darkred;
+    text-align: center;
+}
+
+/*Styling Smith logo*/
+img.logo {
+    width: 267px;
+    height: 72px;
+}
