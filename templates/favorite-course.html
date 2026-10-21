@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Favorite Course - Amari Mehta{% endblock %}
+
+{% block content %}
+
+    <h1>My Favorite Course</h1>
+    <p>Amari Mehta</p>
+
+    <p>
+        You entered your favorite course as:
+        {{ request.args.get('subject') }}{{ request.args.get('course_number') }}
+    </p>
+
+{% endblock %}
